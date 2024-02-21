@@ -7,7 +7,7 @@ import { createClient } from 'redis'; // Импорт клиента Redis дл�
 import { Emitter } from '@socket.io/redis-emitter'; // Импорт Emitter для работы с Redis и Socket.IO.
 import dotenv from 'dotenv';
 
-dotenv.config({ path: '.env.worker' });
+dotenv.config({ path: '.env.mock' });
 
 const app = express();
 const server = http.createServer(app);
